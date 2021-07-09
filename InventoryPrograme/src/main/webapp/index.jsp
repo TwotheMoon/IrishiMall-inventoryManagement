@@ -12,7 +12,8 @@
 		<%@include file="nav.jsp" %>
 		<%@include file="section.jsp" %>	
 		<article>
-			
+			<!-- 제품 정보 출력 -->
+			<!-- 제품 정보 출력 -->
 		</article>
 	
 	
