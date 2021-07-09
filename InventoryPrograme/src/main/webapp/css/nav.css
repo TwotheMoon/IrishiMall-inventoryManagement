@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+.nav-main{
+	width: 1500px;
+	height: 80px;
+	background-color: #F5DEB3;  
+	font-weight: bold;
+	font-size: 25px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+	.nav-main img {
+		margin-right: 20px;
+		border-top-left-radius: 20px;		
+	}
+	.nav-main div{
+		border-right: 2px solid black;
+		padding: 0px 20px;
+		
+	}
+	.nav-main div:first-child{
+		margin-left: 100px;
+	}
+	.nav-main div:last-child {
+		border: none;
+	}
+	.nav-main_date{
+		margin-left: 600px;
+	}
