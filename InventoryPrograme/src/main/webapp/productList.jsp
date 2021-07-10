@@ -37,6 +37,7 @@
 			listProducts = dao.serarchGetAllProducts(key, keyword);
 		}
 	%>
+	
 		<div class="container">
 			<div class="col-md-3">
 				<%@include file="sidebar.jsp"  %>
@@ -54,6 +55,7 @@
 								<option value="pID">상품코드</option>
 								<option value="pPrice">가격</option>
 								<option value="pSize">사이즈</option>
+								<option value="activation">활성화 0 = 미판매 1 = 판매중</option>
 							</select>
 						</div>
 						

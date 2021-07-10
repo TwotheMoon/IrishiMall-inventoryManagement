@@ -222,7 +222,6 @@ public class ProductDao {
 		return -1;
 	}
 	
-	
-	
+
 	
 }

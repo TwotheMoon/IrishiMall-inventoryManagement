@@ -12,14 +12,14 @@
     	<div class="container">
     	
     		<div class="navbar-header">
-    			<a class="navbar-brand" href="productList.jsp"> <img alt="Brand" src="img/irishmall-logo.jpeg"> </a>
+    			<a class="navbar-brand" href="https://smartstore.naver.com/irishmall?NaPm=ct%3Dkqxw462x%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D0e15b574d953f1422b3e5f6c08fbc2ba017414c2"> 
+    				<img alt="Brand" src="img/irishmall-logo.jpeg"> 
+    			</a>
     		</div>
     		<div class="collapse navbar-collapse">
     			<ul class="nav nav-pills">
     				<li role="presentation" class="active"><a href="productList.jsp"> 통합 재고 </a></li>
-  					<li role="presentation"><a href="#"> 출고 </a></li>
-  					<li role="presentation"><a href="#"> 입고 </a></li>
-  					<li role="presentation"><a href="#"> 통계 </a></li>
+  	
 		   			<ul class="nav navbar-nav navbar-right">
 		    			<h3><span class="label label-default"><%= today%></span></h3>
 		    		</ul>
