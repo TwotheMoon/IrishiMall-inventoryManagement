@@ -1,30 +1,30 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@page import="java.util.Date" %>
 <%@page import="java.text.SimpleDateFormat" %>
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
-</head>
-<body>
-	<nav class="nav-main">
-		<img alt="logo" src="img/irishmall-logo.jpeg">
-		<div class="nav-main_stock">Àç°í</div>
-		<div class="nav-main_import">ÀÔ°í</div>
-		<div class="nav-main_export">Ãâ°í</div>
-		<div class="nav-main_statistics">Åë°è</div>
 			<%
 				Date date = new Date();
-				SimpleDateFormat sf = new SimpleDateFormat("yyyy³â MM¿ù ddÀÏ HH½Ã mmºÐ");
+				SimpleDateFormat sf = new SimpleDateFormat("yyyyë…„ MMì›” ddì¼ HHì‹œ mmë¶„");
 				String today = sf.format(date);
 			%>
-		<div class="nav-bar_date">
-			<%= today%>
-		</div>	
-	</nav>
-
-</body>
-</html>
+			
+  <nav class="navbar navbar-default">
+    	<div class="container">
+    	
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="productList.jsp"> <img alt="Brand" src="img/irishmall-logo.jpeg"> </a>
+    		</div>
+    		<div class="collapse navbar-collapse">
+    			<ul class="nav nav-pills">
+    				<li role="presentation" class="active"><a href="productList.jsp"> í†µí•© ìž¬ê³  </a></li>
+  					<li role="presentation"><a href="#"> ì¶œê³  </a></li>
+  					<li role="presentation"><a href="#"> ìž…ê³  </a></li>
+  					<li role="presentation"><a href="#"> í†µê³„ </a></li>
+		   			<ul class="nav navbar-nav navbar-right">
+		    			<h3><span class="label label-default"><%= today%></span></h3>
+		    		</ul>
+    			</ul>
+    		</div>
+    		
+    	</div>
+    </nav>

@@ -1,19 +1,32 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@page import="dto.Product"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="dao.ProductDao"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<link rel="stylesheet" href="css/style.css" >
-<title> IrishMall ¸Å´ÏÁö¸ÕÆ® »çÀÌÆ® </title>
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<meta http-equiv="content-Type" content="text/html" charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale-1">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+<title> IrishMall ë§¤ë‹ˆì§€ë¨¼íŠ¸ ì‚¬ì´íŠ¸ </title>
 </head>
 <body id="index-body">
 	<div id="index-main">
-		<%@include file="nav.jsp" %>
-		<%@include file="section.jsp" %>	
+		<nav>
+			<%@include file="nav.jsp" %>		
+		</nav>
+		
+		<section>
+			<%@include file="section.jsp" %>
+		</section>
+		
 		<article>
-			<!-- Á¦Ç° Á¤º¸ Ãâ·Â -->
-			<!-- Á¦Ç° Á¤º¸ Ãâ·Â -->
+			<!-- ì œí’ˆ ì •ë³´ ì¶œë ¥ -->
+			<!-- ì œí’ˆ ì •ë³´ ì¶œë ¥ -->
 		</article>
 	
 	

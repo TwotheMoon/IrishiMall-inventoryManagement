@@ -13,20 +13,19 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	
-<title> IrishMall 상품 관리 </title>
+<title> IrishMall 통합 재고 </title>
 </head>
 <body>
-
+	<%@include file="nav.jsp" %>
 		<div class="jumbotron">
 			<div class="container">
-				<h1> 상품 관리 </h1>
+				<h1> 통합 재고 </h1>
 			</div>
 		</div>	
 	<%
 		request.setCharacterEncoding("UTF-8");
 			
 		ArrayList<Product> listProducts = new ArrayList<>();
-		
 		String key = request.getParameter("key");
 		String keyword = request.getParameter("keyword");
 		
@@ -47,7 +46,7 @@
 		<% // 조회 %>
 			<div class="col-sm-6"> <%// 공백 %></div>
 			<div class="col-sm-6">
-				<form action="index.jsp" method="post" name="form">
+				<form action="productList.jsp" method="post" name="form">
 					<div class="form-group row">
 						<div class="col-sm-4">
 							<select name="key" class="form-control">
@@ -133,12 +132,6 @@
 					<td>매진</td>
 				<% 		
 					}
-				%>
-					<td><a href="updateProduct.jsp?pID=<%=product.getpID() %>"><button class="badge badge-danger">수정</button></a></td>
-					<td><a href="deleteProductAction.jsp?pID=<%=product.getpID() %>" ><button class="badge badge-danger" onclick="return confirm('삭제 하시겠습니까?')">삭제</button></a></td>
-					<td><a href="activeProductAction.jsp?pID=<%=product.getpID() %>"><button class="badge badge-danger">판매</button> </a></td>
-				</tr>
-			<%
 					}
 				}	
 			%>
