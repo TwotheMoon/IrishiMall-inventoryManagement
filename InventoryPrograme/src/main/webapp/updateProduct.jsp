@@ -66,11 +66,11 @@
 							<div class="col-sm-3">
 							<%
 								if(product.getpSize().equals("20X20")){
-							%>
+							%>	
 								<input type="radio" name="pSize" value="20X20" checked="checked">20X20
 								<input type="radio" name="pSize" value="40X50">40X50
 							<%	
-								} else {
+								} else if (product.getpSize().equals("40X50")) {
 							%>
 								<input type="radio" name="pSize" value="20X20">20X20
 								<input type="radio" name="pSize" value="40X50" checked="checked">40X50

@@ -16,7 +16,7 @@
 		
 		<div class="panel panel-info">
 			<div class="panel-heading">
-				<h3 class="panel-title">아이리시몰 바로가기 메뉴</h3>
+				<h3 class="panel-title">아이리시몰 메뉴</h3>
 			</div>    	
 			<ul class="list-group">
 				<li class="list-group-item">
@@ -35,6 +35,11 @@
 					</a> 
 				</li>
 				<li class="list-group-item">
+					<a href="https://www.instagram.com/irishmall_official/">
+						인스타그램				
+					</a> 
+				</li>
+				<li class="list-group-item">
 					<a href="https://m.facebook.com/irishmall.official/">
 						페이스북				
 					</a> 
@@ -44,22 +49,27 @@
     	
     	<div class="panel panel-info">
 			<div class="panel-heading">
-				<h3 class="panel-title">관리사이트 바로가기</h3>
+				<h3 class="panel-title">관리자사이트</h3>
 			</div>    	
 			<ul class="list-group">
 				<li class="list-group-item">
-					<a href="#">
-						사이트1
+					<a href="https://sell.smartstore.naver.com/#/home/dashboard">
+						스마트스토어센터
 					</a> 
 				</li>
 				<li class="list-group-item">
-					<a href="#"> 
-						사이트2
+					<a href="https://wing.coupang.com/"> 
+						쿠팡 윙
 					</a> 
 				</li>
 				<li class="list-group-item">
-					<a href="#">
-						사이트3					
+					<a href="https://admin.brandi.co.kr/brandi/dashboard/sellerDashboard">
+						브랜디					
+					</a> 
+				</li>
+				<li class="list-group-item">
+					<a href="https://wpartner.wemakeprice.com/main">
+						위메프 파트너				
 					</a> 
 				</li>
 			</ul>

@@ -18,13 +18,15 @@
 			script.print("alert('변경 성공');");
 			script.print("location.href = 'index.jsp'");
 			script.print("</script>");
-    	}else{
+    	} else {
     		PrintWriter script = response.getWriter();
 			script.print("<script>");
 			script.print("alert('오류!! 형오한테 문의하세요');");
 			script.print("history.back()");
 			script.print("</script>");
     	}
+   
+    	
     	
 
     %>

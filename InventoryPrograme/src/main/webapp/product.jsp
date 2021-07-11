@@ -53,13 +53,24 @@
 					%>
 					<p> 상품 재고 : 매진
 					<% 		
-						}else{
+						} else {
 					%>
 					<p> 상품 재고 : <%=product.getpQuantity() %>
 					<%
 						}
 					%>
 					<p> 상품 가격 : <%=product.getpPrice() %>
+					<%
+						if(product.getactivation() == 0){
+					%>
+					<p> 판매 상태 : 미판매 
+					<% 	
+						} else {
+					%>
+					<p>	판매 상태 : 판매중
+					<% 							
+						}
+					%>
 					<div class="container">
 						<a href="updateProduct.jsp?pID=<%=product.getpID() %>" class="btn btn-info" >상품수정</a>
 						<a href="productList.jsp" class="btn btn-info">상품목록</a>

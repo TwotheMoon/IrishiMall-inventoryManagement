@@ -49,9 +49,8 @@
 	 	product.setpPrice(price);
 	 	product.setpImg(pImg);
 	 	product.setpSize(pSize);
-	 	product.setactivation(1);
-	 	
+		product.setactivation(1);
 	 	dao.updateProduct(product);
 	 	
 	 	response.sendRedirect("index.jsp");
-	%>
+	%> h

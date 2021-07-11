@@ -137,7 +137,7 @@
 				%>
 					<td><a href="updateProduct.jsp?pID=<%=product.getpID() %>"><button class="badge badge-danger">수정</button></a></td>
 					<td><a href="deleteProductAction.jsp?pID=<%=product.getpID() %>" ><button class="badge badge-danger" onclick="return confirm('삭제 하시겠습니까?')">삭제</button></a></td>
-					<td><a href="activeProductAction.jsp?pID=<%=product.getpID() %>"><button class="badge badge-danger">판매</button> </a></td>
+					<td><a href="activeProductAction.jsp?pID=<%=product.getpID() %>"><button class="badge badge-danger">상태</button> </a></td>
 				</tr>
 			<%
 					}
