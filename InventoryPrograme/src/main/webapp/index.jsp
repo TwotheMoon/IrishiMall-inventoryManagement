@@ -8,8 +8,7 @@
 <head>
 	<link rel="stylesheet" href="css/bootstrap.css" >
 	<meta http-equiv="content-Type" content="text/html" charset="UTF-8">
-	<meta name="viewport" content="width=device-width initial-scale-1">
-	
+	<meta name="viewport"  content="width=device-width, initial-scale=1" />
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 <title> IrishMall 매니지먼트 사이트 </title>
@@ -23,12 +22,6 @@
 		<section>
 			<%@include file="section.jsp" %>
 		</section>
-		
-		<article>
-			<!-- 제품 정보 출력 -->
-			<!-- 제품 정보 출력 -->
-		</article>
-	
 	
 	</div>
 </body>
